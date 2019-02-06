@@ -5,9 +5,8 @@
 #include <stdlib.h>
 
 #define TAILLE_SOUS_MATRICE 7
-/* On peut avoir 7 * 7 cellules vivantes */
 #define TAILLE_SUR_MATRICE  9
-/* On place une bordure autour qui facilite la vie du programmeur... */
+
 /**
     i : int             :nNom
     f : float           :flNom

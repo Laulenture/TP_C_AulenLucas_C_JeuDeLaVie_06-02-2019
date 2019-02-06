@@ -97,9 +97,9 @@ void affiche_matrice(int matrice[ ][TAILLE_SUR_MATRICE ]) {
         ligne(7);
         for(nJ=1; nJ<= TAILLE_SOUS_MATRICE; nJ++){
             if (matrice[nI][nJ]==1){
-                printf("|%c",'*');
+                printf("|%c",'O');
             } else{
-                printf("|%c",'|');
+                printf("|%c",' ');
             }
         }
         printf("|\n");
