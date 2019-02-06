@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "vie.h"
+#include "save.h"
 
 /**
     i : int             :nVar
@@ -44,6 +45,7 @@ int main( ) {
         mise_a_jour (matrice);
         printf("La population après %d cycles: \n", nI+1);
         affiche_matrice (matrice);
+        sauvegarde_matrice(matrice);
         printf("Pressez sur ENTER pour continuer...\n");
         gets(s);
     }

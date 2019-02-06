@@ -1,9 +1,6 @@
 #ifndef VIE__H_INCLUDED
 #define VIE__H_INCLUDED
 
-#include <stdio.h>
-#include <stdlib.h>
-
 #define TAILLE_SOUS_MATRICE 7
 #define TAILLE_SUR_MATRICE  9
 
